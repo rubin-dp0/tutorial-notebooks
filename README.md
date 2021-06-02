@@ -5,6 +5,7 @@ These notebooks have drawn from these repositories:
  - https://github.com/lsst-sqre/notebook-demo
  - https://github.com/LSSTScienceCollaborations/StackClub
 
+<br>
 | Number | Title  | Description  |
 |---|---|---|
 | 01 | Intro to DP0 Notebooks | How to use a python notebook, query a DC2 catalog, and retrieve a DC2 image. |
