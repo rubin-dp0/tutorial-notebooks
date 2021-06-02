@@ -16,7 +16,7 @@ These notebooks have drawn from these repositories:
 | | How to query the forced source catalog and construct a variable star light curve. |
 | | How to compare DC2 detections in the Object catalog to the Truth-Match table. |
 
-Additional tutorials will be added as the [DP0 Delegates Assemblies](https://dp0-1.lsst.io/dp0-delegate-resources/index.html).
+Additional tutorials will be added as the [DP0 Delegates Assemblies](https://dp0-1.lsst.io/dp0-delegate-resources/index.html) series progresses.
 
 Want to contribute a tutorial? Contact Melissa Graham via direct message at https://Community.lsst.org.
 
