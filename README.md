@@ -13,6 +13,12 @@ These notebooks have drawn from these repositories:
 | 02. Intro to TAP | Discover, query, and retrieve DC2 catalog data with the Table Access Protocol (TAP) service. |
 | 03. Intro to AFW Display | Display, manipulate, and overlay data onto DC2 images. |
 | 04. Intro to Butler | Discover, query, and retrieve DC2 images with the Generation 3 Butler. |
+
+
+Potential notebooks in development:
+
+| Title  | Description  |
+|---|---|
 | | Query the forced source catalog and construct a variable star light curve. |
 | | Compare DC2 detections in the Object catalog to the Truth-Match table. |
 | | Using the Stack to run source detection, deblending, and measurement tasks; subtract bright sources from an image; convolve image and detect low-surface brightness sources. Something like [this NB by Alex](https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/SourceDetection/LowSurfaceBrightness.nbconvert.ipynb). |
