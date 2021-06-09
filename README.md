@@ -9,10 +9,10 @@ These notebooks have drawn from these repositories:
 
 | Title  | Description  |
 |---|---|
-| 01. Intro to DP0 Notebooks | Use a python notebook, query a DC2 catalog, and retrieve a DC2 image. |
+| 01. Intro to DP0 Notebooks | Use a python notebook; query a DC2 catalog and plot data; retrieve and display a DC2 image. |
 | 02. Intro to TAP | Discover, query, and retrieve DC2 catalog data with the Table Access Protocol (TAP) service. |
 | 03. Intro to AFW Display | Display, manipulate, and overlay data onto DC2 images. |
-| 04. Intro to Butler | Discover, query, and retrieve DC2 images with the Generation 3 Butler. |
+| 04. Intro to Butler | Discover, query, retrieve, and display DC2 images and catalog data with the Generation 3 Butler. |
 
 
 Potential notebooks in development:
