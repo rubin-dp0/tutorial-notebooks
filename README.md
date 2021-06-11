@@ -9,11 +9,11 @@ These notebooks have drawn from these repositories:
 
 | Title  | Description  |
 |---|---|
-| 01. Intro to DP0 Notebooks | Use a python notebook, query a DC2 catalog, and retrieve a DC2 image. |
+| 01. Intro to DP0 Notebooks | Use a python notebook; query a DC2 catalog and plot data; retrieve and display a DC2 image. |
 | 02. Intro to TAP | Discover, query, and retrieve DC2 catalog data with the Table Access Protocol (TAP) service. |
-| 03. Intro to AFW Display | Display, manipulate, and overlay data onto DC2 images. |
-| 04. Intro to Butler | Discover, query, and retrieve DC2 images with the Generation 3 Butler. |
-
+| 03. Image Display and Manipulation | Display and manipulate DC2 images, explore image mask planes, create cutout and RGB images. |
+| 04. Intro to Butler | Discover, query, retrieve, and display DC2 images and catalog data with the Generation 3 Butler. |
+| 05. Intro to Source Detection | Learn to use the LSST Science Pipelines tasks for image characterization, source detection, deblending, and measurement. Learn to interact with a source footprint. |
 
 Potential notebooks in development:
 
@@ -21,10 +21,10 @@ Potential notebooks in development:
 |---|---|
 | | Query the forced source catalog and construct a variable star light curve. |
 | | Compare DC2 detections in the Object catalog to the Truth-Match table. |
-| | Using the Stack to run source detection, deblending, and measurement tasks; subtract bright sources from an image; convolve image and detect low-surface brightness sources. Something like [this NB by Alex](https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/SourceDetection/LowSurfaceBrightness.nbconvert.ipynb). |
-| | Using the Stack to investigate the concept of a footprint: the region of an image used for detecting and measuring source properties. Something like [this NB by Imran](https://nbviewer.jupyter.org/github/LSSTScienceCollaborations/StackClub/blob/rendered/SourceDetection/Footprints.nbconvert.ipynb). |
 
-Additional tutorials will be added as the [DP0 Delegates Assemblies](https://dp0-1.lsst.io/dp0-delegate-resources/index.html) series progresses.
+These tutorials are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development. 
+
+Additional tutorials might be added as the [DP0 Delegates Assemblies](https://dp0-1.lsst.io/dp0-delegate-resources/index.html) series progresses.
 
 Want to contribute a tutorial? Contact Melissa Graham via direct message at https://Community.lsst.org.
 
