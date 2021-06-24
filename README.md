@@ -1,10 +1,6 @@
 # tutorial-notebooks
 Tutorial Jupyter Notebooks for Data Preview 0, created and maintained by the Rubin Observatory Community Engagement Team.
 
-These notebooks have drawn from these repositories:
- - https://github.com/lsst-sqre/notebook-demo
- - https://github.com/LSSTScienceCollaborations/StackClub
-
 <br>
 
 | Title  | Description  |
@@ -18,16 +14,15 @@ These notebooks have drawn from these repositories:
 | 07. *(time-domain tutorial)* | TBD |
 | 08. *(data visualization)* | TBD |
 
-Potential notebooks in development:
+These tutorials are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development.
 
-| Title  | Description  |
-|---|---|
-| | Query the forced source catalog and construct a variable star light curve. |
-| | Compare DC2 detections in the Object catalog to the Truth-Match table. |
-
-These tutorials are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development. 
+The `prod` branch will appear in IDF RSP users' home directories.
 
 Additional tutorials might be added as the [DP0 Delegates Assemblies](https://dp0-1.lsst.io/dp0-delegate-resources/index.html) series progresses.
+
+These notebooks have drawn from these repositories:
+ - https://github.com/lsst-sqre/notebook-demo
+ - https://github.com/LSSTScienceCollaborations/StackClub
 
 Want to contribute a tutorial? Contact Melissa Graham via direct message at https://Community.lsst.org.
 
