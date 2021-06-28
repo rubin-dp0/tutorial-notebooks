@@ -5,8 +5,8 @@ Tutorial Jupyter Notebooks for Data Preview 0, created and maintained by the Rub
 
 | Title  | Description  |
 |---|---|
-| 01. Intro to DP0 Notebooks | How to: use a python notebook; query a DC2 catalog and plot data; retrieve and display a DC2 image. |
-| 02. Intro to TAP | Discover, query, and retrieve DC2 catalog data with the Table Access Protocol (TAP) service. |
+| 01. Intro to DP0 Notebooks | Use a python notebook; query a DC2 catalog and plot data; retrieve and display a DC2 image. |
+| 02. Intermediate TAP Queries | Query, and retrieve DC2 catalog data with the Table Access Protocol (TAP) service. Use bokeh and holoviews to create interactive plots. |
 | 03. Image Display and Manipulation | Display and manipulate DC2 images, explore image mask planes, create cutout and RGB images. |
 | 04. Intro to Butler | Discover, query, retrieve, and display DC2 images and catalog data with the Generation 3 Butler. |
 | 05. Intro to Source Detection | Use the LSST Science Pipelines tasks for image characterization, source detection, deblending, measurement, and to interact with a source footprint. |
