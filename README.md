@@ -9,8 +9,8 @@ Tutorial Jupyter Notebooks for Data Preview 0, created and maintained by the Rub
 | 02. Intermediate TAP Queries | Query, and retrieve DC2 catalog data with the Table Access Protocol (TAP) service. Use bokeh and holoviews to create interactive plots. |
 | 03. Image Display and Manipulation | Display and manipulate DC2 images, explore image mask planes, create cutout and RGB images. |
 | 04. Intro to Butler | Discover, query, retrieve, and display DC2 images and catalog data with the Generation 3 Butler. |
-| 05. Intro to Source Detection | Learn to use the LSST Science Pipelines tasks for image characterization, source detection, deblending, and measurement. Learn to interact with a source footprint. |
-| 06. Comparing Object and Truth Table | TBD |
+| 05. Intro to Source Detection | Use the LSST Science Pipelines tasks for image characterization, source detection, deblending, measurement, and to interact with a source footprint. |
+| 06. Comparing Object and Truth Table | Retrieve and merge data from the DC2 Object and Truth-Match tables, and compare simulated and measured properties. |
 | 07. *(time-domain tutorial)* | TBD |
 | 08. *(data visualization)* | TBD |
 
