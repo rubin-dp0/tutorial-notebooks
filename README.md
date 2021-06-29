@@ -12,7 +12,7 @@ Tutorial Jupyter Notebooks for Data Preview 0, created and maintained by the Rub
 | 05. Intro to Source Detection | Use the LSST Science Pipelines tasks for image characterization, source detection, deblending, measurement, and to interact with a source footprint. |
 | 06. Comparing Object and Truth Table | Retrieve and merge data from the DC2 Object and Truth-Match tables, and compare simulated and measured properties. |
 | 07. *(time-domain tutorial)* | TBD |
-| 08. *(data visualization)* | TBD |
+| 08. Interactive Image Visualization | Use Bokeh, Holoviews, and Datashader to plot very large datasets. |
 | 09. Single Star LC with Butler | Demonstrate limits of building light curves during DP0.1: use the Butler to retrieve all PVI sources within a small radius of a given sky coordinate. |
 
 These tutorials will only work on the Rubin Science Platform deployed at the Interim Data Facility for Data Preview 0.
