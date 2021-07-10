@@ -20,10 +20,17 @@ The `prod` branch will appear in IDF RSP users' home directories.
 
 Additional tutorials might be added as the [DP0 Delegates Assemblies](https://dp0-1.lsst.io/dp0-delegate-resources/index.html) series progresses.
 
+More DP0 documentation can be found at [dp0-1.lsst.io](https://dp0-1.lsst.io).
+
+**Acknowledgements**
+
 These notebooks have drawn from these repositories:
  - https://github.com/lsst-sqre/notebook-demo
  - https://github.com/LSSTScienceCollaborations/StackClub
 
-Want to contribute a tutorial? Contact Melissa Graham via direct message at https://Community.lsst.org.
+Many of the tutorial notebooks in this repository were originally developed by Stack Club members or Rubin staff, and have been altered and updated to be appropriate for DP0.
+If these notebooks are used for a journal publication, please consider adding an acknowledgement that gives credit to the original creator(s) as listed in the notebook's header.
 
-More DP0 documentation can be found at dp0-1.lsst.io.
+**Contributions**
+
+Want to contribute a tutorial? Contact Melissa Graham via direct message at https://Community.lsst.org.
