@@ -13,6 +13,7 @@ Tutorial Jupyter Notebooks for Data Preview 0, created and maintained by the Rub
 | 06. Comparing Object and Truth Table | Retrieve and merge data from the DC2 Object and Truth-Match tables, and compare simulated and measured properties. |
 | 07. *(time-domain tutorial)* | TBD |
 | 08. *(data visualization)* | TBD |
+| 09. Single Star LC with Butler | Demonstrate limits of building light curves during DP0.1: use the Butler to retrieve all PVI sources within a small radius of a given sky coordinate. |
 
 These tutorials are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development.
 
