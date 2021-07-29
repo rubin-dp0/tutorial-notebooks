@@ -13,6 +13,7 @@ Tutorial Jupyter Notebooks for Data Preview 0, created and maintained by the Rub
 | 06. Comparing Object and Truth Table | Retrieve and merge data from the DC2 Object and Truth-Match tables, and compare simulated and measured properties. |
 | 07. *(time-domain tutorial)* | TBD |
 | 08. *(data visualization)* | TBD |
+| 09. Single Star LC with Butler | Demonstrate limits of building light curves during DP0.1: use the Butler to retrieve all PVI sources within a small radius of a given sky coordinate. |
 
 These tutorials are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development.
 
@@ -20,10 +21,17 @@ The `prod` branch will appear in IDF RSP users' home directories.
 
 Additional tutorials might be added as the [DP0 Delegates Assemblies](https://dp0-1.lsst.io/dp0-delegate-resources/index.html) series progresses.
 
+More DP0 documentation can be found at [dp0-1.lsst.io](https://dp0-1.lsst.io).
+
+**Acknowledgements**
+
 These notebooks have drawn from these repositories:
  - https://github.com/lsst-sqre/notebook-demo
  - https://github.com/LSSTScienceCollaborations/StackClub
 
-Want to contribute a tutorial? Contact Melissa Graham via direct message at https://Community.lsst.org.
+Many of the tutorial notebooks in this repository were originally developed by Stack Club members or Rubin staff, and have been altered and updated to be appropriate for DP0.
+If these notebooks are used for a journal publication, please consider adding an acknowledgement that gives credit to the original creator(s) as listed in the notebook's header.
 
-More DP0 documentation can be found at dp0-1.lsst.io.
+**Contributions**
+
+Want to contribute a tutorial? Contact Melissa Graham via direct message at https://Community.lsst.org.
