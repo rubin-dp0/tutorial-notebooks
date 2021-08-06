@@ -15,6 +15,8 @@ Tutorial Jupyter Notebooks for Data Preview 0, created and maintained by the Rub
 | 08. *(data visualization)* | TBD |
 | 09. Single Star LC with Butler | Demonstrate limits of building light curves during DP0.1: use the Butler to retrieve all PVI sources within a small radius of a given sky coordinate. |
 
+These tutorials will only work on the Rubin Science Platform deployed at the Interim Data Facility for Data Preview 0.
+
 These tutorials are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development.
 
 The `prod` branch will appear in IDF RSP users' home directories.
