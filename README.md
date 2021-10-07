@@ -8,11 +8,12 @@ Tutorial Jupyter Notebooks for Data Preview 0, created and maintained by the Rub
 | 01. Intro to DP0 Notebooks | Use a python notebook; query a DC2 catalog and plot data; retrieve and display a DC2 image.|
 | 02. Intermediate TAP Queries |Query, and retrieve DC2 catalog data with the Table Access Protocol (TAP) service. Use bokeh and holoviews to create interactive plots.|
 | 03. Image Display and Manipulation | Display and manipulate DC2 images, explore image mask planes, create cutout and RGB images. |
+| 03b. Image Display with Firefly | Demonstrate the Firefly interactive interface for viewing image data. |
 | 04. Intro to Butler | Discover, query, retrieve, and display DC2 images and catalog data with the Generation 3 Butler. |
 | 05. Intro to Source Detection | Use the LSST Science Pipelines tasks for image characterization, source detection, deblending, measurement, and to interact with a source footprint. |
 | 06. Comparing Object and Truth Table | Retrieve and merge data from the DC2 Object and Truth-Match tables, and compare simulated and measured properties. |
 | 07. *(time-domain tutorial)* | TBD |
-| 08. *(data visualization)* | TBD |
+| 08. Interactive Image Visualization |  Introduces three open-source Python libraries that enable powerful interactive visualization of images and catalogs |
 | 09. Single Star LC with Butler | Demonstrate limits of building light curves during DP0.1: use the Butler to retrieve all PVI sources within a small radius of a given sky coordinate. |
 
 These tutorials will only work on the Rubin Science Platform deployed at the Interim Data Facility for Data Preview 0.
