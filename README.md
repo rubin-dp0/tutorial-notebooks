@@ -23,7 +23,7 @@ These tutorials will only work on the Rubin Science Platform deployed at the Int
 
 These tutorials are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development.
 
-Branches `main` and `prod` will usually match, except for short periods of time when updates from multiple development branches are being collected in `main` before "releasing" updated notebooks in a single PR to `prod`. The `prod` branch appears automatically in IDF RSP users' home directories. Any user who obtains this repository with `git clone` can switch from `main` to `prod` using `git checkout -b prod` to ensure they are using the "released" versions.
+Branches `main` and `prod` will usually match, except for short periods of time when updates from multiple development branches are being collected in `main` before "releasing" updated notebooks in a single PR to `prod`. The `prod` branch appears automatically in IDF RSP users' home directories. Any user who obtains this repository with `git clone` can switch from `main` to `prod` using `git checkout prod` to ensure they are using the "released" versions.
 
 Additional tutorials might be added as the [DP0 Delegates Assemblies](https://dp0-1.lsst.io/dp0-delegate-resources/index.html) series progresses.
 
