@@ -1,5 +1,8 @@
 # tutorial-notebooks
-Tutorial Jupyter Notebooks for Data Preview 0, created and maintained by the Rubin Observatory Community Engagement Team.
+
+**NEEDS TO BE UPDATED -- ADD LINK TO THE DP0.1 NB ARCHIVE**
+
+Tutorial Jupyter Notebooks for Data Preview 0.2, created and maintained by the Rubin Observatory Community Engagement Team.
 
 The `prod` branch will appear in IDF RSP users' home directories.
 
@@ -25,9 +28,7 @@ These tutorials are subject to change, as the Rubin Science Platform and the LSS
 
 Branches `main` and `prod` will usually match, except for short periods of time when updates from multiple development branches are being collected in `main` before "releasing" updated notebooks in a single PR to `prod`. The `prod` branch appears automatically in IDF RSP users' home directories. Any user who obtains this repository with `git clone` can switch from `main` to `prod` using `git checkout prod` to ensure they are using the "released" versions.
 
-Additional tutorials might be added as the [DP0 Delegates Assemblies](https://dp0-1.lsst.io/dp0-delegate-resources/index.html) series progresses.
-
-More DP0 documentation can be found at [dp0-1.lsst.io](https://dp0-1.lsst.io).
+More DP0 documentation can be found at [dp0-2.lsst.io](https://dp0-2.lsst.io).
 
 **Acknowledgements**
 
