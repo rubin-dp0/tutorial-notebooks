@@ -1,17 +1,15 @@
 # tutorial-notebooks
 
-**NEEDS TO BE UPDATED -- ADD LINK TO THE DP0.1 NB ARCHIVE**
-
 Tutorial Jupyter Notebooks for Data Preview 0.2, created and maintained by the Rubin Observatory Community Engagement Team.
 
-The `prod` branch will appear in IDF RSP users' home directories.
+The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/tutorial-notebooks/`.
 
 <br>
 
-| Title  | Description  |
+| Title  | Brief Description  |
 |---|---|
-| 01. Intro to DP0 Notebooks | Use a python notebook; query a DC2 catalog and plot data; retrieve and display a DC2 image. |
-| 02. Intermediate TAP Queries | Query, and retrieve DC2 catalog data with the Table Access Protocol (TAP) service. Use bokeh and holoviews to create interactive plots. |
+| 01. Introduction to DP0.2 | An introduction to using Jupyter Notebooks and Rubin python packages to access LSST data products (images and catalogs). |
+| 02. Catalog Queries with TAP | Explore the DP0.2 catalogs via TAP and execute complex queries to retrieve data. |
 | 03. Image Display and Manipulation | Display and manipulate DC2 images, explore image mask planes, create cutout and RGB images. |
 | 03b. Image Display with Firefly | Demonstrates the Firefly interactive interface for viewing image data. |
 | 04. Intro to Butler | Discover, query, retrieve, and display DC2 images and catalog data with the Generation 3 Butler. |
@@ -22,11 +20,15 @@ The `prod` branch will appear in IDF RSP users' home directories.
 | 08b. Interactive Catalog Visualization | Use Holoviews and Bokeh to display and interact with catalog data. Use Datashader to visualize very large datasets interactively. |
 | 09. Single Star LC with Butler | Demonstrate limits of building light curves during DP0.1: use the Butler to retrieve all PVI sources within a small radius of a given sky coordinate. |
 
+**Advisories**
+
 These tutorials will only work on the Rubin Science Platform deployed at the Interim Data Facility for Data Preview 0.
 
 These tutorials are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development.
 
-Branches `main` and `prod` will usually match, except for short periods of time when updates from multiple development branches are being collected in `main` before "releasing" updated notebooks in a single PR to `prod`. The `prod` branch appears automatically in IDF RSP users' home directories. Any user who obtains this repository with `git clone` can switch from `main` to `prod` using `git checkout prod` to ensure they are using the "released" versions.
+Branches `main` and `prod` will usually match, except for short periods of time when updates from multiple development branches are being collected in `main` before "releasing" updated notebooks in a single PR to `prod`.
+It is the `prod` branch which appears automatically in IDF RSP users' home directories.
+Any user who obtains this repository with `git clone` can switch from `main` to `prod` using `git checkout prod` to ensure they are using the "released" versions.
 
 More DP0 documentation can be found at [dp0-2.lsst.io](https://dp0-2.lsst.io).
 
@@ -43,12 +45,12 @@ If these notebooks are used for a journal publication, please consider adding an
 
 Want to contribute a tutorial? Contact Melissa Graham via direct message at [Community.lsst.org](https://Community.lsst.org).
 
-**Skills in Notebooks**
+**Notebook descriptions, learning levels, packages, data products, and skills**
 
 | Skills in DP01 Tutorial Notebooks  |
 |---|
-| **01. Intro to DP0 Notebooks**, <br> **Description:** Use a python notebook; query a DC2 catalog and plot data; retrieve and display a DC2 image. <br> **Level:** Beginner <br> **Packages:** TAP, pandas, butler, lsst.geom, skymap, afwDisplay, numpy, matplotlib <br> **Skills:** Jupyter Notebook functionality; emergency-stop a Notebook; importing python packages; using the Table Access Protocol (TAP) service; exploring catalog tables and columns with TAP; retrieving data with TAP; making a color-magnitude diagram; using the pandas package; finding and retrieving an image with the butler; displaying an image with afwDisplay.<br> |
-| **02. Intermediate TAP Queries** <br> **Description:** Query, and retrieve DC2 catalog data with the Table Access Protocol (TAP) service. Use bokeh and holoviews to create interactive plots. <br> **Level:** Beginner-Intermediate <br> **Packages:** TAP, astropy, pandas, bokeh, holoviews <br> **Skills:** Exploring the DP0.1 table schema; using the TAP service client; querying the DP0.1 Object and Truth-Match catalogs; using cone searches and joining tables; creating histograms of binned data and analysis plots (color-magnitude, color-color diagrams); performing asynchronous TAP queries and retrieving results; deleting an asynchronus job.<br>|
+| **01. Introduction to DP0.2**, <br> **Description:** An introduction to using Jupyter Notebooks and Rubin python packages to access LSST data products (images and catalogs). <br> **Level:** Beginner <br> **Packages:** lsst.rsp.get_tap_service, lsst.rsp.retrieve_query, lsst.daf.butler, lsst.afw.display, lsst.geom, pandas, matplotlib <br> **Data Products:** TAP dp02_dc2_catalogs.Object table. Butler deepCoadd image. <br> **Skills:** Execute python code in a Jupyter Notebook. Use the TAP service to retreive Object catalog data. Use the Butler to retrieve and display a deepCoadd image. <br> |
+| **02. Catalog Queries with TAP** <br> **Description:** Explore the DP0.2 catalogs via TAP and execute complex queries to retrieve data. <br> **Level:** Beginner <br> **Packages:** lsst.rsp, bokeh, pandas <br> **Data Products:** Object, ForceSource, CcdVisit tables. <br> **Skills:** Use the TAP service. Query catalog data with ADQL. Visualize retrieved datasets. <br>|
 | **03. Image Display and Manipulation** <br>**Description:** Display and manipulate DC2 images, explore image mask planes, create cutout and RGB images.<br> **Level:** Beginner-Intermediate <br> **Packages:** matplotlib.pyplot, astropy.wcs, lsst.afw.display, lsst.daf.butler, lsst.geom, astropy.visualization.make_lupton_rgb, lsst.afw.display <br> **Skills:** Using afwDisplay to visualize images and their masks; creating cutout images; plotting an RGB composite image.<br> |
 | **03b. Displaying images using Firefly** <br> **Description:** Demonstrates the Firefly interactive interface for viewing image data. <br> **Level:** Beginner-Intermediate <br> **Packages:** lsst.afw.display, lsst.daf.butler <br> **Skills:** Using Firefly as the display interface. <br>|
 | **04. Intro to Butler** <br> **Description:** Discover, query, retrieve, and display DC2 images and catalog data with the Generation 3 Butler. <br> **Level:** Beginner-Intermediate <br> **Packages:** numpy, pylab, lsst.daf.butler, lsst.afw.display, lsst.geom, lsst.afw.coord, astropy, lsst.sphgeom <br> **Skills:** Creating an instance of the butler; using the butler to explore the DP0.1 data repository; retrieving an image and sources from the butler; displaying the image with sources overlayed; creating an image cutout at a user-specified coordinate.<br> |
