@@ -49,8 +49,18 @@ Want to contribute a tutorial? Contact Melissa Graham via direct message at [Com
 
 | Skills in DP01 Tutorial Notebooks  |
 |---|
-| **01. Introduction to DP0.2**, <br> **Description:** An introduction to using Jupyter Notebooks and Rubin python packages to access LSST data products (images and catalogs). <br> **Level:** Beginner <br> **Packages:** lsst.rsp.get_tap_service, lsst.rsp.retrieve_query, lsst.daf.butler, lsst.afw.display, lsst.geom, pandas, matplotlib <br> **Data Products:** TAP dp02_dc2_catalogs.Object table. Butler deepCoadd image. <br> **Skills:** Execute python code in a Jupyter Notebook. Use the TAP service to retreive Object catalog data. Use the Butler to retrieve and display a deepCoadd image. <br> |
-| **02. Catalog Queries with TAP** <br> **Description:** Explore the DP0.2 catalogs via TAP and execute complex queries to retrieve data. <br> **Level:** Beginner <br> **Packages:** lsst.rsp, bokeh, pandas <br> **Data Products:** Object, ForceSource, CcdVisit tables. <br> **Skills:** Use the TAP service. Query catalog data with ADQL. Visualize retrieved datasets. <br>|
+| **01. Introduction to DP0.2** <br>
+**Level:** Beginner <br>
+**Description:** An introduction to using Jupyter Notebooks and Rubin python packages to access LSST data products (images and catalogs). <br>
+**Skills:** Execute python code in a Jupyter Notebook. Use the TAP service to retreive Object catalog data. Use the Butler to retrieve and display a deepCoadd image. <br>
+**Data Products:** TAP dp02_dc2_catalogs.Object table. Butler deepCoadd image. <br>
+**Packages:** lsst.rsp.get_tap_service, lsst.rsp.retrieve_query, lsst.daf.butler, lsst.afw.display, lsst.geom, pandas, matplotlib <br> |
+| **02. Catalog Queries with TAP** <br>
+**Level:** Beginner <br>
+**Description:** Explore the DP0.2 catalogs via TAP and execute complex queries to retrieve data. <br>
+**Skills:** Use the TAP service. Query catalog data with ADQL. Visualize retrieved datasets. <br>
+**Data Products:** Object, ForceSource, CcdVisit tables. <br>
+**Packages:** lsst.rsp, bokeh, pandas <br> |
 | **03. Image Display and Manipulation** <br>**Description:** Display and manipulate DC2 images, explore image mask planes, create cutout and RGB images.<br> **Level:** Beginner-Intermediate <br> **Packages:** matplotlib.pyplot, astropy.wcs, lsst.afw.display, lsst.daf.butler, lsst.geom, astropy.visualization.make_lupton_rgb, lsst.afw.display <br> **Skills:** Using afwDisplay to visualize images and their masks; creating cutout images; plotting an RGB composite image.<br> |
 | **03b. Displaying images using Firefly** <br> **Description:** Demonstrates the Firefly interactive interface for viewing image data. <br> **Level:** Beginner-Intermediate <br> **Packages:** lsst.afw.display, lsst.daf.butler <br> **Skills:** Using Firefly as the display interface. <br>|
 | **04. Intro to Butler** <br> **Description:** Discover, query, retrieve, and display DC2 images and catalog data with the Generation 3 Butler. <br> **Level:** Beginner-Intermediate <br> **Packages:** numpy, pylab, lsst.daf.butler, lsst.afw.display, lsst.geom, lsst.afw.coord, astropy, lsst.sphgeom <br> **Skills:** Creating an instance of the butler; using the butler to explore the DP0.1 data repository; retrieving an image and sources from the butler; displaying the image with sources overlayed; creating an image cutout at a user-specified coordinate.<br> |
