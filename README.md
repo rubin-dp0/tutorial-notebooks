@@ -58,3 +58,7 @@ Want to contribute a tutorial? Contact Melissa Graham via direct message at [Com
 | **06b. Interactive Catalog Visualization** <br> **Level:** Intermediate <br> **Description:** Create interactive catalog visualizations for large datasets with HoloViews, Bokeh, and Datashader. <br> **Skills:** Create linked interactive plots for large datasets. Use Bokeh, HoloViews, and Datashader. <br> **Data Products:** Object catalog <br> **Packages:** bokeh, holoviews, datashader <br> |
 | **07a. DiaObject Samples** <br> **Level:** Intermediate <br> **Description:** Use the DiaObject table parameters to identify a sample of time-variable objects of interest. <br> **Skills:** Use the TAP service and the DP0.2 DiaObject and DiaSource tables. <br> **Data Products:** DiaObject, DiaSource tables <br> **Packages:** lsst.rsp, astropy.cosmology <br> |
 | **07b. Variable Star Lightcurves** <br> **Level:** Intermediate <br> **Description:** Use the DP0.2 catalogs to identify variable stars and plot their lightcurves. <br> **Skills:** Use various TAP tables, including joining multiple tables. Extract time-series photometry. Measure periods and plot phased lightcurves. <br> **Data Products:** Object, ForcedSource, CcdVisit, DiaObject, DiaSource tables <br> **Packages:** astropy.timeseries.LombScargle, lsst.rsp.get_tap_service <br> |
+
+<br>
+**Looking for the DP0.1 tutorial notebooks?**
+Find them in this archived repository: [tutorial-notebooks-dp01-archive](https://github.com/rubin-dp0/tutorial-notebooks-dp01-archive).
