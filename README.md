@@ -60,5 +60,6 @@ Want to contribute a tutorial? Contact Melissa Graham via direct message at [Com
 | **07b. Variable Star Lightcurves** <br> **Level:** Intermediate <br> **Description:** Use the DP0.2 catalogs to identify variable stars and plot their lightcurves. <br> **Skills:** Use various TAP tables, including joining multiple tables. Extract time-series photometry. Measure periods and plot phased lightcurves. <br> **Data Products:** Object, ForcedSource, CcdVisit, DiaObject, DiaSource tables <br> **Packages:** astropy.timeseries.LombScargle, lsst.rsp.get_tap_service <br> |
 
 <br>
+
 **Looking for the DP0.1 tutorial notebooks?**
 Find them in this archived repository: [tutorial-notebooks-dp01-archive](https://github.com/rubin-dp0/tutorial-notebooks-dp01-archive).
