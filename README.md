@@ -38,7 +38,6 @@ These notebooks have drawn from these repositories:
  - https://github.com/LSSTScienceCollaborations/StackClub
 
 Many of the tutorial notebooks in this repository were originally developed by Stack Club members or Rubin staff, and have been altered and updated to be appropriate for DP0.
-If these notebooks are used for a journal publication, please consider adding an acknowledgement that gives credit to the original creator(s) as listed in the notebook's header.
 
 **Contributions**
 
