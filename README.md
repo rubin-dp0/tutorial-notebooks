@@ -20,6 +20,7 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | 06b. Interactive Catalog Visualization | Create interactive catalog visualizations for large datasets with HoloViews, Bokeh, and Datashader. |
 | 07a. DiaObject Samples | Use the DiaObject table parameters to identify a sample of time-variable objects of interest. |
 | 07b. Variable Star Lightcurves | Use the DP0.2 catalogs to identify variable stars and plot their lightcurves. |
+| 08. Truth Tables | Explore, retrieve, and compare data from the truth and measurement tables. |
 
 **Advisories**
 
@@ -61,6 +62,7 @@ Want to contribute a tutorial? Contact Melissa Graham via direct message at [Com
 | **06b. Interactive Catalog Visualization** <br> **Level:** Intermediate <br> **Description:** Create interactive catalog visualizations for large datasets with HoloViews, Bokeh, and Datashader. <br> **Skills:** Create linked interactive plots for large datasets. Use Bokeh, HoloViews, and Datashader. <br> **Data Products:** Object catalog <br> **Packages:** bokeh, holoviews, datashader <br> |
 | **07a. DiaObject Samples** <br> **Level:** Intermediate <br> **Description:** Use the DiaObject table parameters to identify a sample of time-variable objects of interest. <br> **Skills:** Use the TAP service and the DP0.2 DiaObject and DiaSource tables. <br> **Data Products:** DiaObject, DiaSource tables <br> **Packages:** lsst.rsp, astropy.cosmology <br> |
 | **07b. Variable Star Lightcurves** <br> **Level:** Intermediate <br> **Description:** Use the DP0.2 catalogs to identify variable stars and plot their lightcurves. <br> **Skills:** Use various TAP tables, including joining multiple tables. Extract time-series photometry. Measure periods and plot phased lightcurves. <br> **Data Products:** Object, ForcedSource, CcdVisit, DiaObject, DiaSource tables <br> **Packages:** astropy.timeseries.LombScargle, lsst.rsp.get_tap_service <br> |
+| **08. Truth Tables** <br> **Level:** Beginner <br> **Description:** An introduction to using the truth data for the Dark Energy Science Collaboration's DC2 data set. <br> **Skills:** Use the TAP service with table joins to retrive truth data matched to the Object catalog. <br> **Data Products:** TAP dp02_dc2_catalogs.Object, .MatchesTruth, and .TruthSummary tables <br> **Packages:** lsst.rsp.get_tap_service, lsst.rsp.retrieve_query <br> |
 
 <br>
 
