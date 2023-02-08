@@ -36,6 +36,14 @@ Any user who obtains this repository with `git clone` can switch from `main` to 
 
 More DP0 documentation can be found at [dp0-2.lsst.io](https://dp0-2.lsst.io).
 
+**Get Support or Report Issues**
+
+To ask a question or report an issue (e.g., a bug), use either the Data Preview 0 category of the [Rubin Community Forum](https://Community.lsst.org), 
+or submit a GitHub Issue on the [Support repository](https://github.com/rubin-dp0/Support).
+
+Please don't submit GitHub Issues in this repository!
+Rubin staff only monitor the [Support repository](https://github.com/rubin-dp0/Support) and the Community Forum.
+
 **Acknowledgements**
 
 These notebooks have drawn from these repositories:
