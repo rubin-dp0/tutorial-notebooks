@@ -24,7 +24,7 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | 09a. Custom Coadd | Create a custom "deepCoadd" using only a subset of the input visits. |
 | 09b. Custom Coadd Sources | Detect and measure sources in a custom coadded image. |
 
-**Advisories**
+## Advisories
 
 These tutorials will only work on the Rubin Science Platform deployed at the Interim Data Facility for Data Preview 0.
 
@@ -36,7 +36,7 @@ Any user who obtains this repository with `git clone` can switch from `main` to 
 
 More DP0 documentation can be found at [dp0-2.lsst.io](https://dp0-2.lsst.io).
 
-**Get Support or Report Issues**
+## Get support or report issues
 
 To ask a question or report an issue (e.g., a bug), use either the Data Preview 0 category of the [Rubin Community Forum](https://Community.lsst.org), 
 or submit a GitHub Issue on the [Support repository](https://github.com/rubin-dp0/Support).
@@ -44,7 +44,7 @@ or submit a GitHub Issue on the [Support repository](https://github.com/rubin-dp
 Please don't submit GitHub Issues in this repository!
 Rubin staff only monitor the [Support repository](https://github.com/rubin-dp0/Support) and the Community Forum.
 
-**Acknowledgements**
+## Acknowledgements
 
 These notebooks have drawn from these repositories:
  - https://github.com/lsst-sqre/notebook-demo
@@ -52,13 +52,14 @@ These notebooks have drawn from these repositories:
 
 Many of the tutorial notebooks in this repository were originally developed by Stack Club members or Rubin staff, and have been altered and updated to be appropriate for DP0.
 
-**Contributions**
+## Contribute
 
 Want to contribute a tutorial? Contact Melissa Graham via direct message at [Community.lsst.org](https://Community.lsst.org).
 
-**Notebook descriptions, learning levels, packages, data products, and skills**
 
-| Skills in DP01 Tutorial Notebooks  |
+## Notebook descriptions, learning levels, packages, data products, and skills
+
+| Skills in DP0.2 Tutorial Notebooks  |
 |---|
 | **01. Introduction to DP0.2** <br> **Level:** Beginner <br> **Description:** Use the Jupyter Notebooks and Rubin python packages to access LSST data products. <br> **Skills:** Execute python code in a Jupyter Notebook. Use the TAP service to retreive Object catalog data. Use the Butler to retrieve and display a deepCoadd image. <br> **Data Products:** Object table; deepCoadd images <br> **Packages:** lsst.rsp.get_tap_service, lsst.rsp.retrieve_query, lsst.daf.butler, lsst.afw.display, lsst.geom <br> |
 | **02. Catalog Queries with TAP** <br> **Level:** Beginner <br> **Description:** Explore the DP0.2 catalogs via TAP and execute complex queries to retrieve data. <br> **Skills:** Use the TAP service. Query catalog data with ADQL. Visualize retrieved datasets. <br> **Data Products:** Object, ForceSource, CcdVisit tables <br> **Packages:** lsst.rsp, bokeh, pandas <br> |
@@ -78,5 +79,6 @@ Want to contribute a tutorial? Contact Melissa Graham via direct message at [Com
 
 <br>
 
-**Looking for the DP0.1 tutorial notebooks?**
+## Looking for the DP0.1 tutorial notebooks?
+
 Find them in this archived repository: [tutorial-notebooks-dp01-archive](https://github.com/rubin-dp0/tutorial-notebooks-dp01-archive).
