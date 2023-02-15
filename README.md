@@ -21,10 +21,10 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | 07a. DiaObject Samples | Use the DiaObject table parameters to identify a sample of time-variable objects of interest. |
 | 07b. Variable Star Lightcurves | Use the DP0.2 catalogs to identify variable stars and plot their lightcurves. |
 | 08. Truth Tables | Explore, retrieve, and compare data from the truth and measurement tables. |
-| 09a. Custom Coadd | Create a custom "deepCoadd" using only a subset of the input visits. |
-| 09b. Custom Coadd Sources | Detect and measure sources in a custom coadded image. |
 
 ## Advisories
+
+Notebooks 09a and 09b have been temporarily removed and are undergoing a major update.
 
 These tutorials will only work on the Rubin Science Platform deployed at the Interim Data Facility for Data Preview 0.
 
@@ -74,8 +74,6 @@ Want to contribute a tutorial? Contact Melissa Graham via direct message at [Com
 | **07a. DiaObject Samples** <br> **Level:** Intermediate <br> **Description:** Use the DiaObject table parameters to identify a sample of time-variable objects of interest. <br> **Skills:** Use the TAP service and the DP0.2 DiaObject and DiaSource tables. <br> **Data Products:** DiaObject, DiaSource tables <br> **Packages:** lsst.rsp, astropy.cosmology <br> |
 | **07b. Variable Star Lightcurves** <br> **Level:** Intermediate <br> **Description:** Use the DP0.2 catalogs to identify variable stars and plot their lightcurves. <br> **Skills:** Use various TAP tables, including joining multiple tables. Extract time-series photometry. Measure periods and plot phased lightcurves. <br> **Data Products:** Object, ForcedSource, CcdVisit, DiaObject, DiaSource tables <br> **Packages:** astropy.timeseries.LombScargle, lsst.rsp.get_tap_service <br> |
 | **08. Truth Tables** <br> **Level:** Beginner <br> **Description:** An introduction to using the truth data for the Dark Energy Science Collaboration's DC2 data set. <br> **Skills:** Use the TAP service with table joins to retrive truth data matched to the Object catalog. <br> **Data Products:** TAP dp02_dc2_catalogs.Object, .MatchesTruth, and .TruthSummary tables <br> **Packages:** lsst.rsp.get_tap_service, lsst.rsp.retrieve_query <br> |
-| **09a. Custom Coadd** <br> **Level:** Advanced <br> **Description:** Create a custom "deepCoadd" using only a subset of the input visits. <br> **Skills:** Use of pipetasks for image coaddition. Creating and writing to Butler collections. Properties of deepCoadds. <br> **Data Products:** visitTable table, deepCoadd images <br> **Packages:** lsst.daf.butler, lsst.ctrl.mpexec, lsst.pipe.base <br> |
-| **09b. Custom Coadd Sources** <br> **Level:** Advanced <br> **Description:** Detect and measure sources in a custom coadded image. <br> **Skills:** Use the butler on user-generated collections. Run source detection and measurement. <br> **Data Products:** user-generated coadd, deepCoadd images; Object table <br> **Packages:** lsst.afw, lsst.pipe, lsst.meas <br> |
 
 <br>
 
