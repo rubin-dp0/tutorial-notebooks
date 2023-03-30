@@ -57,6 +57,10 @@ Many of the tutorial notebooks in this repository were originally developed by S
 
 Want to contribute a tutorial? Contact Melissa Graham via direct message at [Community.lsst.org](https://Community.lsst.org).
 
+## Licensing and Re-use
+
+The *content* of these notebooks are licensed under the Apache 2.0 License.  That said, the use of the Vera C. Rubin logo is reserved.   Thus, the content of these notebooks may be re-used, but the header and logo at the top of each notebook should not.  Those re-using the contents of these notebooks should remove the original header and logo and provide their own, and not use the Rubin Observatory branding.
+
 
 ## Notebook descriptions, learning levels, packages, data products, and skills
 
