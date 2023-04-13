@@ -21,15 +21,17 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | 07a. DiaObject Samples | Use the DiaObject table parameters to identify a sample of time-variable objects of interest. |
 | 07b. Variable Star Lightcurves | Use the DP0.2 catalogs to identify variable stars and plot their lightcurves. |
 | 08. Truth Tables | Explore, retrieve, and compare data from the truth and measurement tables. |
+| 09a. Custom Coadd | Create a custom "deepCoadd" using only a subset of the input visits. |
+| 09b. Custom Coadd Sources | Detect and measure sources in a custom "deepCoadd" image. |
 | 10. Deblender Data Products | Use the outputs of the multiband deblender to explore the footprints of parent and child objects. |
 
 ## Advisories
 
-Notebooks 09a and 09b have been temporarily removed and are undergoing a major update.
+The tutorials in this repo will only work on the Rubin Science Platform deployed at the Interim Data Facility for Data Preview 0.
 
-These tutorials will only work on the Rubin Science Platform deployed at the Interim Data Facility for Data Preview 0.
+The tutorials in this repo are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development.
 
-These tutorials are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development.
+Tutorial notebooks 09a and 09b can only be used with uncached RSP Image "Weekly 2022_40".
 
 Branches `main` and `prod` will usually match, except for short periods of time when updates from multiple development branches are being collected in `main` before "releasing" updated notebooks in a single PR to `prod`.
 It is the `prod` branch which appears automatically in IDF RSP users' home directories.
@@ -79,6 +81,8 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | **07a. DiaObject Samples** <br> **Level:** Intermediate <br> **Description:** Use the DiaObject table parameters to identify a sample of time-variable objects of interest. <br> **Skills:** Use the TAP service and the DP0.2 DiaObject and DiaSource tables. <br> **Data Products:** DiaObject, DiaSource tables <br> **Packages:** lsst.rsp, astropy.cosmology <br> |
 | **07b. Variable Star Lightcurves** <br> **Level:** Intermediate <br> **Description:** Use the DP0.2 catalogs to identify variable stars and plot their lightcurves. <br> **Skills:** Use various TAP tables, including joining multiple tables. Extract time-series photometry. Measure periods and plot phased lightcurves. <br> **Data Products:** Object, ForcedSource, CcdVisit, DiaObject, DiaSource tables <br> **Packages:** astropy.timeseries.LombScargle, lsst.rsp.get_tap_service <br> |
 | **08. Truth Tables** <br> **Level:** Beginner <br> **Description:** An introduction to using the truth data for the Dark Energy Science Collaboration's DC2 data set. <br> **Skills:** Use the TAP service with table joins to retrive truth data matched to the Object catalog. <br> **Data Products:** TAP dp02_dc2_catalogs.Object, .MatchesTruth, and .TruthSummary tables <br> **Packages:** lsst.rsp.get_tap_service, lsst.rsp.retrieve_query <br> |
+| **09a. Custom Coadd** <br> **Level:** advanced <br> **Description:** Create a custom "deepCoadd" using only a subset of the input visits. <br> **Skills:** Use of pipetasks for image coaddition. Creating and writing to Butler collections. Properties of deepCoadds. <br> **Data Products:** visitTable, deepCoadd images <br> **Packages:** lsst.daf.butler, lsst.ctrl.mpexec, lsst.pipe.base <br> |
+| **09b. Custom Coadd Sources** <br> **Level:** advanced <br> **Description:** Detect and measure sources in a custom "deepCoadd" image. <br> **Skills:** Use the butler on user-generated collections. Run source detection and measurement. <br> **Data Products:** user-generated deepCoadd; DP0.2 deepCoadd image and Object table <br> **Packages:** lsst.afw, lsst.pipe, lsst.meas <br> |
 | **10. Deblender Data Products** <br> **Level:** Beginner <br> **Description:** Use the outputs of the multiband deblender to explore the footprints of parent and child objects. <br> **Skills:** Use of the catalog data products related to deblending objects. <br> **Data Products:** TAP dp02_dc2_catalogs.Object, Butler objectTable and deepCoadd_deblendedFlux table <br> **Packages:** lsst.daf.butler, lsst.rsp, lsst.afw.display <br> |
 
 
