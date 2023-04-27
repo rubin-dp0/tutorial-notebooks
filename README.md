@@ -1,6 +1,6 @@
 # tutorial-notebooks
 
-Tutorial Jupyter Notebooks for Data Preview 0.2, created and maintained by the Rubin Observatory Community Engagement Team.
+Tutorial Jupyter Notebooks for Data Preview 0.2, created and maintained by the Rubin Observatory Community Science Team.
 
 The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/tutorial-notebooks/`.
 
