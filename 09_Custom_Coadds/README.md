@@ -20,3 +20,6 @@ However, the latest versions of the pipelines are not compatible with the interm
 To update this tutorial to be able to use Weekly 2023_07, it would have to demonstrate how to recreate coadds *starting with the raw data products*.
 This is pedagogically undesirable because it does not accurately represent *future workflows*, which is the goal of DP0.2.
 Thus, it is recommended that delegates learn how to recreate coadds with Weekly 2022_40.
+
+**Why are these notebooks in their own sub-directory?**
+For now, notebooks in a sub-directory will not be automatically run and tested with the recommended image, which is good because notebooks 09a and 09b currently fail to run with the recommended image and thus cause warning alarms to go off when they fail during routine testing.
