@@ -31,7 +31,7 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 
 | Title  | Brief Description  |
 |---|---|
-| 01. Introduction to DP0.3 |  |
+| 01. Introduction to DP0.3 | An overview of the contents of the DP0.3 moving object catalogs. |
 | 02.  |  |
 | 03.  |  |
 | 04.  |  |
@@ -103,7 +103,7 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 
 | Skills in **DP0.3** Tutorial Notebooks  |
 |---|
-| **01. Introduction to DP0.3** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
+| **01. Introduction to DP0.3** <br> **Level:** Beginner <br> **Description:** An overview of the contents of the DP0.3 moving object catalogs. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. <br> **Data Products:** TAP dp03_catalogs <br> **Packages:** lsst.rsp.get_tap_service <br> |
 | **02. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 | **03. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 | **04. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
