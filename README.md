@@ -1,10 +1,12 @@
 # tutorial-notebooks
 
-Tutorial Jupyter Notebooks for Data Preview 0.2, created and maintained by the Rubin Observatory Community Science Team.
+Tutorial Jupyter Notebooks for Data Preview 0.2 and 0.3, created and maintained by the Rubin Observatory Community Science Team.
 
 The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/tutorial-notebooks/`.
 
 <br>
+
+## DP0.2 Tutorials
 
 | Title  | Brief Description  |
 |---|---|
@@ -25,19 +27,27 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | 09b. Custom Coadd Sources | Detect and measure sources in a custom "deepCoadd" image. |
 | 10. Deblender Data Products | Use the outputs of the multiband deblender to explore the footprints of parent and child objects. |
 
+## DP0.3 Tutorials
+
+| Title  | Brief Description  |
+|---|---|
+| 01. Introduction to DP0.3 |  |
+| 02.  |  |
+
+
 ## Advisories
 
 The tutorials in this repo will only work on the Rubin Science Platform deployed at the Interim Data Facility for Data Preview 0.
 
 The tutorials in this repo are subject to change, as the Rubin Science Platform and the LSST Science Pipelines are in active development.
 
-Tutorial notebooks 09a and 09b can only be used with uncached RSP Image "Weekly 2022_40".
+DP0.2 tutorial notebooks 09a and 09b can only be used with uncached RSP Image "Weekly 2022_40".
 
 Branches `main` and `prod` will usually match, except for short periods of time when updates from multiple development branches are being collected in `main` before "releasing" updated notebooks in a single PR to `prod`.
 It is the `prod` branch which appears automatically in IDF RSP users' home directories.
 Any user who obtains this repository with `git clone` can switch from `main` to `prod` using `git checkout prod` to ensure they are using the "released" versions.
 
-More DP0 documentation can be found at [dp0-2.lsst.io](https://dp0-2.lsst.io).
+The documentation for DP0 can be found at [dp0-2.lsst.io](https://dp0-2.lsst.io) and [dp0-3.lsst.io](https://dp0-3.lsst.io).
 
 ## Get support or report issues
 
@@ -53,11 +63,13 @@ These notebooks have drawn from these repositories:
  - https://github.com/lsst-sqre/notebook-demo
  - https://github.com/LSSTScienceCollaborations/StackClub
 
-Many of the tutorial notebooks in this repository were originally developed by Stack Club members or Rubin staff, and have been altered and updated to be appropriate for DP0.
+Many of the tutorial notebooks in this repository were originally developed by Stack Club members or Rubin staff, 
+and have been altered and updated to be appropriate for DP0.
 
 ## Contribute
 
-Want to contribute a tutorial? Contact Melissa Graham via direct message at [Community.lsst.org](https://Community.lsst.org).
+Want to contribute a tutorial? 
+Contact Melissa Graham via direct message at [Community.lsst.org](https://Community.lsst.org).
 
 ## Licensing and Re-use
 
@@ -66,7 +78,7 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 
 ## Notebook descriptions, learning levels, packages, data products, and skills
 
-| Skills in DP0.2 Tutorial Notebooks  |
+| Skills in **DP0.2** Tutorial Notebooks  |
 |---|
 | **01. Introduction to DP0.2** <br> **Level:** Beginner <br> **Description:** Use the Jupyter Notebooks and Rubin python packages to access LSST data products. <br> **Skills:** Execute python code in a Jupyter Notebook. Use the TAP service to retrieve Object catalog data. Use the Butler to retrieve and display a deepCoadd image. <br> **Data Products:** Object table; deepCoadd images <br> **Packages:** lsst.rsp.get_tap_service, lsst.rsp.retrieve_query, lsst.daf.butler, lsst.afw.display, lsst.geom, pandas, matplotlib <br> |
 | **02. Catalog Queries with TAP** <br> **Level:** Beginner <br> **Description:** Explore the DP0.2 catalogs via TAP and execute complex queries to retrieve data. <br> **Skills:** Use the TAP service. Query catalog data with ADQL. Visualize retrieved datasets. <br> **Data Products:** Object, ForcedSource, CcdVisit tables <br> **Packages:** lsst.rsp, bokeh, pandas <br> |
@@ -84,6 +96,10 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | **09a. Custom Coadd** <br> **Level:** Advanced <br> **Description:** Create a custom "deepCoadd" using only a subset of the input visits. <br> **Skills:** Use of pipetasks for image coaddition. Creating and writing to Butler collections. Properties of deepCoadds. <br> **Data Products:** visitTable, deepCoadd images <br> **Packages:** lsst.daf.butler, lsst.ctrl.mpexec, lsst.pipe.base <br> |
 | **09b. Custom Coadd Sources** <br> **Level:** Advanced <br> **Description:** Detect and measure sources in a custom "deepCoadd" image. <br> **Skills:** Use the Butler on user-generated collections. Run source detection and measurement. <br> **Data Products:** user-generated deepCoadd; DP0.2 deepCoadd image and Object table <br> **Packages:** lsst.afw, lsst.pipe, lsst.meas <br> |
 | **10. Deblender Data Products** <br> **Level:** Beginner <br> **Description:** Use the outputs of the multiband deblender to explore the footprints of parent and child objects. <br> **Skills:** Use of the catalog data products related to deblending objects. <br> **Data Products:** TAP dp02_dc2_catalogs.Object, Butler objectTable and deepCoadd_deblendedFlux table <br> **Packages:**  lsst.afw.image, lsst.afw.detection, lsst.rsp, lsst.daf.butler, lsst.geom <br> |
+
+| Skills in **DP0.3** Tutorial Notebooks  |
+|---|
+| **01. Introduction to DP0.3** <br> **Level:** Beginner <br> **Description:**  <br> **Skills:** . <br> **Data Products:**  <br> **Packages:** lsst.rsp.get_tap_service <br> |
 
 
 <br>
