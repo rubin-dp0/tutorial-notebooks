@@ -33,6 +33,10 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 |---|---|
 | 01. Introduction to DP0.3 |  |
 | 02.  |  |
+| 03.  |  |
+| 04.  |  |
+| 05.  |  |
+| 06.  |  |
 
 
 ## Advisories
@@ -99,7 +103,12 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 
 | Skills in **DP0.3** Tutorial Notebooks  |
 |---|
-| **01. Introduction to DP0.3** <br> **Level:** Beginner <br> **Description:**  <br> **Skills:** . <br> **Data Products:**  <br> **Packages:** lsst.rsp.get_tap_service <br> |
+| **01. Introduction to DP0.3** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
+| **02. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
+| **03. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
+| **04. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
+| **05. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
+| **06. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 
 
 <br>
