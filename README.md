@@ -104,7 +104,7 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | Skills in **DP0.3** Tutorial Notebooks  |
 |---|
 | **01. Introduction to DP0.3** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
-| **02. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
+| **02. Phase Curves and Absolute Magnitudes** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 | **03. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 | **04. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 | **05. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
