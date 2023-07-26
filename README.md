@@ -32,7 +32,7 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | Title  | Brief Description  |
 |---|---|
 | 01. Introduction to DP0.3 |  |
-| 02.  |  |
+| 02. Phase Curves and Absolute Magnitudes |  |
 | 03.  |  |
 | 04.  |  |
 | 05.  |  |
