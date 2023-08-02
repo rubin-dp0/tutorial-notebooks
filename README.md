@@ -33,11 +33,9 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | Title  | Brief Description  |
 |---|---|
 | 01. Introduction to DP0.3 | An overview of the contents of the DP0.3 moving object catalogs. |
-| 02.  |  |
-| 03.  |  |
-| 04.  |  |
-| 05.  |  |
-| 06.  |  |
+| 02. *Phase Curves* | *Coming Soon!* |
+| 03. *Main Belt Asteroids* | *Coming Soon!* |
+| 04. *Trans-Neptunian Objects* | *Coming Soon!* |
 
 
 ## Advisories
@@ -109,8 +107,6 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | **02. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 | **03. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 | **04. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
-| **05. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
-| **06. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 
 
 <br>
