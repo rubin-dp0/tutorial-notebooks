@@ -33,7 +33,7 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | Title  | Brief Description  |
 |---|---|
 | 01. Introduction to DP0.3 | An overview of the contents of the DP0.3 moving object catalogs. |
-| 02. *Main Belt Asteroids* | A brief exploration of the orbital properties of Main Belt asteroids. |
+| 02. Main Belt Asteroids | A brief exploration of the orbital properties of Main Belt asteroids. |
 | 03. *Phase Curves* | *Coming Soon!* |
 | 04. *Trans-Neptunian Objects* | *Coming Soon!* |
 
