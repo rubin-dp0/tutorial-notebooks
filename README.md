@@ -33,8 +33,8 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | Title  | Brief Description  |
 |---|---|
 | 01. Introduction to DP0.3 | An overview of the contents of the DP0.3 moving object catalogs. |
-| 02. *Phase Curves* | *Coming Soon!* |
-| 03. *Main Belt Asteroids* | *Coming Soon!* |
+| 02. Main Belt Asteroids | A brief exploration of the orbital properties of Main Belt asteroids in DP0.3 catalogs. |
+| 03. *Phase Curves* | *Coming Soon!* |
 | 04. *Trans-Neptunian Objects* | *Coming Soon!* |
 
 
@@ -104,7 +104,7 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | Skills in **DP0.3** Tutorial Notebooks  |
 |---|
 | **01. Introduction to DP0.3** <br> **Level:** Beginner <br> **Description:** An overview of the contents of the DP0.3 moving object catalogs. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. <br> **Data Products:** TAP dp03_catalogs <br> **Packages:** lsst.rsp.get_tap_service <br> |
-| **02. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
+| **02. Properties of Main Belt Asteroids in DP0.3** <br> **Level:** Beginner  <br> **Description:** An exploration of the orbital properties of Main Belt asteroids in the DP0.3 catalogs. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. Join information from multiple DP0.3 tables. Plot orbits of Solar System objects. <br> **Data Products:** TAP dp03_catalogs <br> **Packages:** lsst.rsp.get_tap_service <br> |
 | **03. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 | **04. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 
