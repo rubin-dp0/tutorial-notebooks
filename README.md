@@ -26,17 +26,16 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | 09a. Custom Coadd | Create a custom "deepCoadd" using only a subset of the input visits. |
 | 09b. Custom Coadd Sources | Detect and measure sources in a custom "deepCoadd" image. |
 | 10. Deblender Data Products | Use the outputs of the multiband deblender to explore the footprints of parent and child objects. |
+| 11. Working with User Packages | An example of how to install and set up user packages. |
 
 ## DP0.3 Tutorials
 
 | Title  | Brief Description  |
 |---|---|
-| 01. Introduction to DP0.3 |  |
-| 02. Phase Curves and Absolute Magnitudes |  |
-| 03.  |  |
-| 04.  |  |
-| 05.  |  |
-| 06.  |  |
+| 01. Introduction to DP0.3 | An overview of the contents of the DP0.3 moving object catalogs. |
+| 02. Main Belt Asteroids | A brief exploration of the orbital properties of Main Belt asteroids in DP0.3 catalogs. |
+| 03. *Phase Curves* | *Coming Soon!* |
+| 04. *Trans-Neptunian Objects* | *Coming Soon!* |
 
 
 ## Advisories
@@ -100,15 +99,14 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | **09a. Custom Coadd** <br> **Level:** Advanced <br> **Description:** Create a custom "deepCoadd" using only a subset of the input visits. <br> **Skills:** Use of pipetasks for image coaddition. Creating and writing to Butler collections. Properties of deepCoadds. <br> **Data Products:** visitTable, deepCoadd images <br> **Packages:** lsst.daf.butler, lsst.ctrl.mpexec, lsst.pipe.base <br> |
 | **09b. Custom Coadd Sources** <br> **Level:** Advanced <br> **Description:** Detect and measure sources in a custom "deepCoadd" image. <br> **Skills:** Use the Butler on user-generated collections. Run source detection and measurement. <br> **Data Products:** user-generated deepCoadd; DP0.2 deepCoadd image and Object table <br> **Packages:** lsst.afw, lsst.pipe, lsst.meas <br> |
 | **10. Deblender Data Products** <br> **Level:** Beginner <br> **Description:** Use the outputs of the multiband deblender to explore the footprints of parent and child objects. <br> **Skills:** Use of the catalog data products related to deblending objects. <br> **Data Products:** TAP dp02_dc2_catalogs.Object, Butler objectTable and deepCoadd_deblendedFlux table <br> **Packages:**  lsst.afw.image, lsst.afw.detection, lsst.rsp, lsst.daf.butler, lsst.geom <br> |
+| **11. Working with User Packages** <br> **Level:** Beginner <br> **Description:** An example of how to install and set up user packages. <br> **Skills:** Installing sofware, building libraries, and modifying paths. <br> **Data Products:** N/A <br> **Packages:** os, bagpipes, PyMultiNest, MultiNest, PyCuba, Cuba <br> |
 
 | Skills in **DP0.3** Tutorial Notebooks  |
 |---|
-| **01. Introduction to DP0.3** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
-| **02. Phase Curves and Absolute Magnitudes** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
+| **01. Introduction to DP0.3** <br> **Level:** Beginner <br> **Description:** An overview of the contents of the DP0.3 moving object catalogs. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. <br> **Data Products:** TAP dp03_catalogs <br> **Packages:** lsst.rsp.get_tap_service <br> |
+| **02. Properties of Main Belt Asteroids in DP0.3** <br> **Level:** Beginner  <br> **Description:** An exploration of the orbital properties of Main Belt asteroids in the DP0.3 catalogs. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. Join information from multiple DP0.3 tables. Plot orbits of Solar System objects. <br> **Data Products:** TAP dp03_catalogs <br> **Packages:** lsst.rsp.get_tap_service <br> |
 | **03. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 | **04. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
-| **05. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
-| **06. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
 
 
 <br>
