@@ -27,6 +27,8 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | 09b. Custom Coadd Sources | Detect and measure sources in a custom "deepCoadd" image. |
 | 10. Deblender Data Products | Use the outputs of the multiband deblender to explore the footprints of parent and child objects. |
 | 11. Working with User Packages | An example of how to install and set up user packages. |
+| 12a. Point Spread Function - data products | Demonstration of available PSF data products. |
+| 12b. Point Spread function - science demo | Use PSF properties for weak lensing. |
 
 ## DP0.3 Tutorials
 
