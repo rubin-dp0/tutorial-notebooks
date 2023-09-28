@@ -36,8 +36,9 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 |---|---|
 | 01. Introduction to DP0.3 | An overview of the contents of the DP0.3 moving object catalogs. |
 | 02. Main Belt Asteroids | A brief exploration of the orbital properties of Main Belt asteroids in DP0.3 catalogs. |
-| 03. *Phase Curves* | *Coming Soon!* |
-| 04. *Trans-Neptunian Objects* | *Coming Soon!* |
+| 03. *Trans-Neptunian Objects* | *Coming Soon!* |
+| 04a. Introduction to Phase Curves | Explore phase curves for DP0.3 solar system objects. |
+| 04b. Advanced Phase Curve Modeling | Explicitly investigate the derivation of phase curves for Main Belt asteroids. |
 
 
 ## Advisories
@@ -110,7 +111,8 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | **01. Introduction to DP0.3** <br> **Level:** Beginner <br> **Description:** An overview of the contents of the DP0.3 moving object catalogs. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. <br> **Data Products:** TAP dp03_catalogs <br> **Packages:** lsst.rsp.get_tap_service <br> |
 | **02. Properties of Main Belt Asteroids in DP0.3** <br> **Level:** Beginner  <br> **Description:** An exploration of the orbital properties of Main Belt asteroids in the DP0.3 catalogs. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. Join information from multiple DP0.3 tables. Plot orbits of Solar System objects. <br> **Data Products:** TAP dp03_catalogs <br> **Packages:** lsst.rsp.get_tap_service <br> |
 | **03. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
-| **04. TBD** <br> **Level:**  <br> **Description:**  <br> **Skills:**  <br> **Data Products:**  <br> **Packages:**  <br> |
+| **04a. Introduction to Phase Curves** <br> **Level:** Intermediate <br> **Description:** Explore phase curves for DP0.3 solar system objects. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. Join information from multiple DP0.3 tables. Plot phase curves. <br> **Data Products:** TAP dp03_catalogs <br> **Packages:** lsst.rsp.get_tap_service <br>
+| **04b. Advanced Phase Curve Modeling** <br> **Level:** Advanced <br> **Description:** Explicitly investigate the derivation of phase curves for Main Belt asteroids. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. Join information from multiple DP0.3 tables. Derive phase curves using three different models. <br> **Data Products:** TAP dp03_catalogs with added columns <br> **Packages:** lsst.rsp.get_tap_service <br> |
 
 
 <br>
