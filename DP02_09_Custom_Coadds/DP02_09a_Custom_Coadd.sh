@@ -19,7 +19,7 @@ LOGDIR=logs
 # make the directory for output log files
 mkdir $LOGDIR
 
-# run the custom coadd processing
+# run the custom coaddition
 LOGFILE=$LOGDIR/makeWarpAssembleCoadd-logfile.log; \
 date | tee $LOGFILE; \
 pipetask --long-log --log-file $LOGFILE run --register-dataset-types \
@@ -30,4 +30,19 @@ pipetask --long-log --log-file $LOGFILE run --register-dataset-types \
 -c makeWarp:doApplyFinalizedPsf=False \
 -c makeWarp:connections.visitSummary="visitSummary" \
 -d "tract = 4431 AND patch = 17 AND visit in (919515,924057,924085,924086,929477,930353) AND skymap = 'DC2'"; \
+date | tee -a $LOGFILE
+
+# run source detection, deblending, and measurement on the custom coadd
+LOGFILE=$LOGDIR/detectionMergeDeblendMeasure.log; \
+date | tee $LOGFILE; \
+pipetask --long-log --log-file $LOGFILE run \
+-b dp02 \
+-i u/$USER/custom_coadd_window1_cl00 \
+-o u/$USER/custom_coadd_window1_cl00_det \
+-c detection:detection.thresholdValue=10 \
+-c detection:detection.thresholdType="stdev" \
+-c deblend:multibandDeblend.maxIter=20 \
+-c measure:doPropagateFlags=False \
+-p $DRP_PIPE_DIR/pipelines/LSSTCam-imSim/DRP-test-med-1.yaml#detection,mergeDetections,deblend,measure \
+-d "tract = 4431 AND patch = 17 AND band = 'i' AND skymap = 'DC2'"; \
 date | tee -a $LOGFILE
