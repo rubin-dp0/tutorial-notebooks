@@ -32,6 +32,15 @@ pipetask --long-log --log-file $LOGFILE run --register-dataset-types \
 -d "tract = 4431 AND patch = 17 AND visit in (919515,924057,924085,924086,929477,930353) AND skymap = 'DC2'"; \
 date | tee -a $LOGFILE
 
+# generate the QuantumGraph visualization for detection, deblending, and measurement
+pipetask build \
+-p $DRP_PIPE_DIR/pipelines/LSSTCam-imSim/DRP-test-med-1.yaml#detection,mergeDetections,deblend,measure \
+--pipeline-dot pipeline.dot; \
+dot pipeline.dot -Tpdf > detectionMergeDetectionsDeblendMeasure-DRP.pdf
+
+# remove temporary file
+rm pipeline.dot 
+
 # run source detection, deblending, and measurement on the custom coadd
 LOGFILE=$LOGDIR/detectionMergeDeblendMeasure.log; \
 date | tee $LOGFILE; \
