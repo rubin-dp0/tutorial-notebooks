@@ -13,7 +13,7 @@ If you are **not** using `w_2022_40` you **must** log out and start a new server
  3. At <a href="https://dp0-2.lsst.io/data-access-analysis-tools/nb-intro.html#how-to-log-in-navigate-and-log-out-of-jupyterlab">the "Server Options" stage</a>, under "Select uncached image (slower start)" choose `w_2022_40`.
  4. Note that it might take a few minutes to start your server with an old image.
 
-In addition to the notebooks in this directory, there is also a shell script version of tutorial notebook 09a (`09a_Custom_Coadd.sh`). To successfully execute this shell script, you need to launch it from a directory within which you have write permission.
+In addition to the notebooks in this directory, there is also a shell script version of tutorial notebook 09a plus the portion of notebook 09b that makes sense to run from the command line (`09ab_Custom_Coadd.sh`). To successfully execute this shell script, you need to launch it from a directory within which you have write permission.
 
 **Why do I need to use an old image for these tutorial notebooks?**
 In this tutorial and in the future with real LSST data, users will be able to recreate coadds starting with intermediate data products (the warps).
