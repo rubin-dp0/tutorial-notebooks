@@ -29,6 +29,7 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 | 11. Working with User Packages | An example of how to install and set up user packages. |
 | 12a. Point Spread Function Data Products | A demonstration of how to access calexp and deepCoadd PSF properties. |
 | 12b. Point Spread Function Science Demo | Demonstration of the use of measured PSF properties in weak lensing analysis. |
+| 14. Injecting Synthetic Sources Into Single-Visit Images | Inject artificial stars and galaxies into images. |
 
 ## DP0.3 Tutorials
 
