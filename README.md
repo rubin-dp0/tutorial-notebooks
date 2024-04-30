@@ -8,9 +8,11 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 
 ## DP0.2 Tutorials
 
+Tutorial titles in **bold** have Spanish-language versions.
+
 | Title  | Brief Description  |
 |---|---|
-| 01. Introduction to DP0.2 | Use the Jupyter Notebooks and Rubin python packages to access LSST data products. |
+| **01. Introduction to DP0.2** | Use the Jupyter Notebooks and Rubin python packages to access LSST data products. |
 | 02. Catalog Queries with TAP | Explore the DP0.2 catalogs via TAP and execute complex queries to retrieve data. |
 | 03a. Image Display and Manipulation | Learn how to display and manipulate images using the LSST Science Pipelines. |
 | 03b. Image Display with Firefly | Use the Firefly interactive interface for image data. |
@@ -36,7 +38,7 @@ The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/
 
 | Title  | Brief Description  |
 |---|---|
-| 01. Introduction to DP0.3 | An overview of the contents of the DP0.3 moving object catalogs. |
+| **01. Introduction to DP0.3** | An overview of the contents of the DP0.3 moving object catalogs. |
 | 02. Main Belt Asteroids | A brief exploration of the orbital properties of Main Belt asteroids in DP0.3 catalogs. |
 | 03. Trans-Neptunian Objects | Explore the trans-Neptunian object populations in DP0.3. |
 | 04a. Introduction to Phase Curves | Explore phase curves for DP0.3 solar system objects. |
