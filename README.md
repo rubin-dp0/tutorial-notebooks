@@ -126,4 +126,6 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 
 ## Looking for the DP0.1 tutorial notebooks?
 
-Find them in this archived repository: [tutorial-notebooks-dp01-archive](https://github.com/rubin-dp0/tutorial-notebooks-dp01-archive).
+DP0.1 was deprecated and is no longer available.
+
+Although they cannot be executed, the tutorial notebooks can still be found in this archived repository: [tutorial-notebooks-dp01-archive](https://github.com/rubin-dp0/tutorial-notebooks-dp01-archive).
