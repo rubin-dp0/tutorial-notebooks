@@ -32,6 +32,7 @@ Tutorial titles in **bold** have Spanish-language versions.
 | 12a. Point Spread Function Data Products | A demonstration of how to access calexp and deepCoadd PSF properties. |
 | 12b. Point Spread Function Science Demo | Demonstration of the use of measured PSF properties in weak lensing analysis. |
 | 13a. Using The Image Cutout Tool With DP0.2 | Demonstration of the use of the image cutout tool with a few science applications. |
+| 13b. Big deepCoadd Cutout | Use the GetTemplateTask to create a custom deepCoadd cutout that spans multiple patches and tracts. |
 | 14. Injecting Synthetic Sources Into Single-Visit Images | Inject artificial stars and galaxies into images. |
 
 ## DP0.3 Tutorials
@@ -111,6 +112,7 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | **12a. Point Spread Function Data Products** <br> **Level:** Intermediate <br> **Description:**  A demonstration of how to access calexp and deepCoadd PSF properties. <br> **Skills:** Use of single-epoch and coadded PSF models. <br> **Data Products:** DP0.2 calexp and deepCoadd images. <br> **Packages:** lsst.daf.butler, lsst.geom, lsst.afw.display <br> |
 | **12b. Point Spread Function Science Demo** <br> **Level:** Advanced <br> **Description:** Demonstration of the use of measured PSF properties in weak lensing analysis. <br> **Skills:** Use of the catalog data products for PSF analysis. <br> **Data Products:** DP0.2 Object and Source catalogs. <br> **Packages:** lsst.analysis.tools.atools <br> |
 | **13a. Using The Image Cutout Tool With DP0.2** <br> **Level:** Beginner <br> **Description:** This notebook demonstrates how to use the Rubin Image Cutout Service. <br> **Skills:** Run the Rubin Image Cutout Service for visual inspection of small cutouts of LSST images. <br> **Data Products:** Images (deepCoadd, calexp), catalogs (objectTable, diaObject, truthTables, ivoa.ObsCore). <br> **Packages:** PyVO, lsst.rsp.get_tap_service, lsst.pipe.tasks.registerImage, lsst.afw.display <br> |
+| **13b. Big deepCoadd Cutout** <br> **Level:** Intermediate <br> **Description:** Create a large custom deepCoadd cutout. <br> **Skills:** Identify tracts and patches and combine them into a large custom deepCoadd cutout. <br> **Data Products:** deepCoadd images <br> **Packages:** lsst.ip.diffim.GetTemplateTask <br> |
 
 | Skills in **DP0.3** Tutorial Notebooks  |
 |---|
