@@ -44,6 +44,7 @@ Tutorial titles in **bold** have Spanish-language versions.
 | 04a. Introduction to Phase Curves | Explore phase curves for DP0.3 solar system objects. |
 | 04b. Advanced Phase Curve Modeling | Explicitly investigate the derivation of phase curves for Main Belt asteroids. |
 | 05. Near-Earth Objects | Exploration of the orbital properties of near-Earth objects in the DP0.3 catalogs. |
+| 06. Using User-Supplied Catalogs | Demonstrate the TAP upload functionality for user-supplied tables and their use in queries for DP0.3 |
 
 
 ## Advisories
@@ -120,6 +121,7 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | **04a. Introduction to Phase Curves** <br> **Level:** Intermediate <br> **Description:** Explore phase curves for DP0.3 solar system objects. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. Join information from multiple DP0.3 tables. Plot phase curves. <br> **Data Products:** TAP dp03_catalogs <br> **Packages:** lsst.rsp.get_tap_service <br>
 | **04b. Advanced Phase Curve Modeling** <br> **Level:** Advanced <br> **Description:** Explicitly investigate the derivation of phase curves for Main Belt asteroids. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. Join information from multiple DP0.3 tables. Derive phase curves using three different models. <br> **Data Products:** TAP dp03_catalogs with added columns <br> **Packages:** lsst.rsp.get_tap_service <br> |
 | **05. Orbital properties of Near-Earth Objects (NEOs) in DP0.3** <br> **Level:** Beginner  <br> **Description:** Exploration of the orbital properties of near-Earth objects in the DP0.3 catalogs. <br> **Skills:** Use TAP queries to retrieve Solar System objects. Plot propoerties and orbits of near-Earth objects. <br> **Data Products:** TAP DP0.3 MPCORB (10-year) and SSObject tables <br> **Packages:** lsst.rsp.get_tap_service <br> |
+| **06. Using User-supplied Catalogs** <br> **Level:** Beginner  <br> **Description:** Demonstrate the TAP upload functionality for user-supplied tables and their use in queries for DP0.3. <br> **Skills:** Use the TAP service to access the DP0.3 tables, Upload user-supplied tables and retreived tables from the Gaia ESA Archive center using the TAP upload feature, Use them in queries. <br> **Data Products:** DP0.3 catalogs SSObject, DiaSource, and MPCORB (10-year catalogs). <br> **Packages:** lsst.rsp.get_tap_service <br> |
 
 
 <br>
