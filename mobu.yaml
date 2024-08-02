@@ -1,3 +1,4 @@
 exclude_dirs:
+  - "DP02_03c_Big_deepCoadd_Cutout"
   - "DP02_09_Custom_Coadds"
   - "DP02_11_User_Packages"
