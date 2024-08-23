@@ -13,7 +13,9 @@ Tutorial titles in **bold** have Spanish-language versions.
 | Title  | Brief Description  |
 |---|---|
 | **01. Introduction to DP0.2** | Use the Jupyter Notebooks and Rubin python packages to access LSST data products. |
-| 02. Catalog Queries with TAP | Explore the DP0.2 catalogs via TAP and execute complex queries to retrieve data. |
+| 02a. Introduction to TAP | Explore the DP0.2 catalogs with the TAP service. |
+| 02b. Catalog Queries with TAP | Execute complex ADQL queries with the TAP service. Visualize catalog data sets. |
+| 02c. Image Queries with TAP | Retrieve and display images using the ObsTAP service. |
 | 03a. Image Display and Manipulation | Learn how to display and manipulate images using the LSST Science Pipelines. |
 | 03b. Image Display with Firefly | Use the Firefly interactive interface for image data. |
 | 03c. Big deepCoadd Cutout | Use the GetTemplateTask to create a custom deepCoadd cutout that spans multiple patches and tracts. |
@@ -94,7 +96,9 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | Skills in **DP0.2** Tutorial Notebooks  |
 |---|
 | **01. Introduction to DP0.2** <br> **Level:** Beginner <br> **Description:** Use the Jupyter Notebooks and Rubin python packages to access LSST data products. <br> **Skills:** Execute python code in a Jupyter Notebook. Use the TAP service to retrieve Object catalog data. Use the Butler to retrieve and display a deepCoadd image. <br> **Data Products:** Object table; deepCoadd images <br> **Packages:** lsst.rsp.get_tap_service, lsst.rsp.retrieve_query, lsst.daf.butler, lsst.afw.display, lsst.geom, pandas, matplotlib <br> |
-| **02. Catalog Queries with TAP** <br> **Level:** Beginner <br> **Description:** Explore the DP0.2 catalogs via TAP and execute complex queries to retrieve data. <br> **Skills:** Use the TAP service. Query catalog data with ADQL. Visualize retrieved datasets. <br> **Data Products:** Object, ForcedSource, CcdVisit tables <br> **Packages:** lsst.rsp, bokeh, pandas <br> |
+| **02a. Introduction to TAP** <br> **Level:** Beginner <br> **Description:** Explore the DP0.2 catalogs with the TAP service. <br> **Skills:** Use the TAP service. Make simple ADQL queries. Visualize retrieved datasets. <br> **Data Products:** Catalog schema. Object table. <br> **Packages:** lsst.rsp <br>|
+| **02b. Catalog Queries with TAP** <br> **Level:** Intermediate <br> **Description:** Execute complex ADQL queries with the TAP service. Visualize catalog data sets. <br> **Skills:** Use advanced ADQL and TAP functionality. Visualize retrieved datasets with bokeh and holoviews <br> **Data Products:** Object, ForcedSource, CcdVisit tables. <br> **Packages:** lsst.rsp, bokeh, pandas <br>|
+| **02c. Image Queries with TAP** <br> **Level:** Intermediate <br> **Description:** Retrieve and display images using the ObsTAP service. <br> **Skills:** Query for image data via the TAP service; retrieve image data with PyVO and Datalink; display and save images. <br> **Data Products:** calexp, deepCoadd <br> **Packages:**  lsst.rsp, lsst.afw, pyvo.dal.adhoc, urllib.request <br>|
 | **03a. Image Display and Manipulation** <br> **Level:** Beginner <br> **Description:** Learn how to display and manipulate images using the LSST Science Pipelines. <br> **Skills:** Display and manipulate images, explore image mask planes, create cutouts and RGB images. <br> **Data Products:** calexp and deepCoadd images; Object table <br> **Packages:** lsst.afw.display, lsst.daf.butler, lsst.geom, lsst.afw.image <br> |
 | **03b. Image Display with Firefly** <br> **Level:** Beginner <br> **Description:** Use the Firefly interactive interface for image data. <br> **Skills:** Using Firefly as the display interface; visualizing images and their masks; overlaying sources on images. <br> **Data Products:** calexp, deepCoadd_calexp images; src, deepCoadd_forced_src, deepCoadd_ref tables <br> **Packages:** lsst.afw.display, lsst.daf.butler <br> |
 | **03c. Big deepCoadd Cutout** <br> **Level:** Intermediate <br> **Description:** Create a large custom deepCoadd cutout. <br> **Skills:** Identify tracts and patches and combine them into a large custom deepCoadd cutout. <br> **Data Products:** deepCoadd images <br> **Packages:** lsst.ip.diffim.GetTemplateTask <br> |
