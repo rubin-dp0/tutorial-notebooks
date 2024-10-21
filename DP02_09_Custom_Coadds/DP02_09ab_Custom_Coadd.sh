@@ -1,5 +1,8 @@
 # make sure that you're in the directory from which you wish to run/launch your
 # custom coadd processing
+# 
+# LSST Science Pipelines version: Weekly 2022_40
+# last updated: 10-21-2024
 
 # set up the LSST pipelines environment
 setup lsst_distrib
@@ -23,7 +26,7 @@ mkdir $LOGDIR
 LOGFILE=$LOGDIR/makeWarpAssembleCoadd-logfile.log; \
 date | tee $LOGFILE; \
 pipetask --long-log --log-file $LOGFILE run --register-dataset-types \
--b dp02 \
+-b dp02-direct \
 -i 2.2i/runs/DP0.2 \
 -o u/$USER/custom_coadd_window1_cl00 \
 -p $DRP_PIPE_DIR/pipelines/LSSTCam-imSim/DRP-test-med-1.yaml#makeWarp,assembleCoadd \
@@ -45,7 +48,7 @@ rm pipeline.dot
 LOGFILE=$LOGDIR/detectionMergeDeblendMeasure.log; \
 date | tee $LOGFILE; \
 pipetask --long-log --log-file $LOGFILE run \
--b dp02 \
+-b dp02-direct \
 -i u/$USER/custom_coadd_window1_cl00 \
 -o u/$USER/custom_coadd_window1_cl00_det \
 -c detection:detection.thresholdValue=10 \
