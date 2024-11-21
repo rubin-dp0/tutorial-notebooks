@@ -48,6 +48,7 @@ Tutorial titles in **bold** have Spanish-language versions.
 | 04b. Advanced Phase Curve Modeling | Explicitly investigate the derivation of phase curves for Main Belt asteroids. |
 | 05. Near-Earth Objects | Exploration of the orbital properties of near-Earth objects in the DP0.3 catalogs. |
 | 06. User-Uploaded Catalogs | Use the TAP upload functionality for user-supplied tables and join them with DP0.3 catalogs. |
+| 07. Interactive Catalog Visualization | Create interactive catalog visualizations for large datasets with HoloViews, Bokeh, and Datashader. |
 
 
 ## Advisories
@@ -130,6 +131,7 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | **04b. Advanced Phase Curve Modeling** <br> **Level:** Advanced <br> **Description:** Explicitly investigate the derivation of phase curves for Main Belt asteroids. <br> **Skills:** Use the TAP service and ADQL to access the DP0.3 tables. Join information from multiple DP0.3 tables. Derive phase curves using three different models. <br> **Data Products:** TAP dp03_catalogs with added columns <br> **Packages:** lsst.rsp.get_tap_service <br> |
 | **05. Orbital properties of Near-Earth Objects (NEOs) in DP0.3** <br> **Level:** Beginner  <br> **Description:** Exploration of the orbital properties of near-Earth objects in the DP0.3 catalogs. <br> **Skills:** Use TAP queries to retrieve Solar System objects. Plot propoerties and orbits of near-Earth objects. <br> **Data Products:** TAP DP0.3 MPCORB (10-year) and SSObject tables <br> **Packages:** lsst.rsp.get_tap_service <br> |
 | **06. Using User-supplied Catalogs** <br> **Level:** Beginner  <br> **Description:** Use the TAP upload functionality for user-supplied tables and join them with DP0.3 catalogs. <br> **Skills:** Use the TAP service to upload a table and join it to an LSST table with ADQL. <br> **Data Products:** DP0.3 catalogs SSObject, DiaSource, and MPCORB (10-year catalogs). <br> **Packages:** lsst.rsp.get_tap_service <br> |
+| **07. Interactive Catalog Visualization** <br> **Level:** Intermediate <br> **Description:** Interactive Solar System catalog data visualizations with three open-source python libraries. <br> **Skills:** Create linked interactive plots for large datasets, and output interactive plots to interactive HTML files. Use Bokeh, HoloViews, and Datashader. <br> **Data Products:** Solar System Object catalogs <br> **Packages:** bokeh, holoviews, datashader <br> |
 
 
 <br>
