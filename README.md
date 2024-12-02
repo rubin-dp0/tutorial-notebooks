@@ -36,6 +36,7 @@ Tutorial titles in **bold** have Spanish-language versions.
 | 13a. Using The Image Cutout Tool With DP0.2 | Demonstration of the use of the image cutout tool with a few science applications. |
 | 14. Injecting Synthetic Sources Into Single-Visit Images | Inject artificial stars and galaxies into images. |
 | 15. Survey Property Maps | Use the tools to visualize full-area survey property maps. |
+| 16a. Introduction to Tensorflow | Learn to classify images with AI-based classification algorithms. |
 
 ## DP0.3 Tutorials
 
@@ -119,7 +120,7 @@ The *content* of these notebooks are licensed under the Apache 2.0 License.  Tha
 | **13a. Using The Image Cutout Tool With DP0.2** <br> **Level:** Beginner <br> **Description:** This notebook demonstrates how to use the Rubin Image Cutout Service. <br> **Skills:** Run the Rubin Image Cutout Service for visual inspection of small cutouts of LSST images. <br> **Data Products:** Images (deepCoadd, calexp), catalogs (objectTable, diaObject, truthTables, ivoa.ObsCore). <br> **Packages:** PyVO, lsst.rsp.get_tap_service, lsst.pipe.tasks.registerImage, lsst.afw.display <br> |
 | **14. Injecting Synthetic Sources Into Single-Visit Images** <br> **Level:** Advanced <br> **Description:** This tutorial demonstrates a method to inject artificial sources (stars and galaxies) into calexp images using the measured point-spread function of the given calexp image. Confirmation that the synthetic sources were correctly injected into the image is done by running a difference imaging task from the pipelines. <br> **Skills:** Use the `source_injection` tools to inject synthetic sources into images. Create a difference image from a `calexp` with injected sources. <br> **Data Products:** Butler calexp images and corresponding src catalogs, goodSeeingDiff_templateExp images, and injection_catalogs. <br> **Packages:** lsst.source.injection <br> |
 | **15. Survey Property Maps** <br> **Level:** Intermediate <br> **Description:** Use the tools to visualize full-area survey property maps. <br> **Skills:** Load and visualize survey property maps using healsparse and skyproj. <br> **Data Products:** Survey property maps. <br> **Packages:** healsparse, skyproj, lsst.daf.butler <br> |
-
+| **16a. Introduction to Tensorflow** <br> **Level:** Beginner <br> **Description:** An introduction to the classification of images with AI-based classification algorithms. <br> **Skills:** Examine AI training data, prepare it for a classification task, perform classification with a neural network, and examine the diagnostics of the classification task. <br> **Data Products:** MNIST data. <br> **Packages:** sklearn, tensorflow <br> |
 
 | Skills in **DP0.3** Tutorial Notebooks  |
 |---|
