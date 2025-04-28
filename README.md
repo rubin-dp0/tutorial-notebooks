@@ -1,8 +1,10 @@
 # tutorial-notebooks
 
-Tutorial Jupyter Notebooks for Data Preview 0.2 and 0.3, created and maintained by the Rubin Observatory Community Science Team.
+## This repo has been archived
 
-The `prod` branch will appear in IDF RSP users' home directories, in `notebooks/tutorial-notebooks/`.
+**This repository is no longer maintained and should not be used.**
+
+As of March 6 2025, the the GitHub repository for Rubin notebook tutorials was [lsst/tutorial-notebooks](https://github.com/lsst/tutorial-notebooks).
 
 <br>
 
